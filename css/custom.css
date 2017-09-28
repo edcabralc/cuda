@@ -1,50 +1,78 @@
-header{
+header {
     background-color: #87509c;
 }
 
-.navbar-custom{
-    
-    padding-top: 60px;
+.navbar-custom {
+    height: 140px;
 }
 
-.navbar-custom li a{
+.navbar-custom ul {
+    padding-top: 40px;
+    margin: auto;
+}
+
+.navbar-custom li a {
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 100;
-     
 }
 
-.navbar-custom a:hover{
+.navbar-custom a:hover, a:active, a:visited {
     font-size: 18px;
     background-color: #643a79 !important;
     border-radius: 4px;
-    
 }
 
-.navbar-custom a:active{
-    
+.navbar-custom a:active {
     background-color: #643a79 !important;
-    
-    
+}
+
+.navbar-custom a:active {
+    background-color: #643a79 !important;
 }
 
 
 .logo {
-    background-color: rgb( 255, 255, 255 );
+    background-color: rgb( 255, 255, 255);
     position: absolute;
     left: 211px;
     top: 57px;
     width: 118px;
     height: 37px;
     z-index: 311;
-  }
+}
 
+#first-call {
+    background-color: #87509c;
+    height: 500px;
+    padding-top: 0;
+    margin-top: 0;
+}
 
+#first-call h1{
+    color: #fff;
 
-  #first-call{
-      
-  }
-  
+}
+
+.btn-person {
+    background-color: #eb7d4b;
+    width: 293px;
+    height: 70px;
+    border-radius: 8px;
+    color: #fff;
+    border-bottom: 4px solid #c86a40;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.btn-person:hover {
+    background-color: #c86a40;
+    color: #fff;
+}
