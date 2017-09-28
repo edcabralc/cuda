@@ -1,9 +1,14 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
 header {
     background-color: #87509c;
 }
 
 .navbar-custom {
     height: 140px;
+    margin-bottom: 0;
 }
 
 .navbar-custom ul {
@@ -54,6 +59,7 @@ header {
 
 #first-call h1{
     color: #fff;
+    font-weight: bolder;
 
 }
 
@@ -70,9 +76,17 @@ header {
     font-weight: bold;
     display: block;
     margin: auto;
+    transition-duration: 0.4s;
+    margin-top:60px;
 }
 
 .btn-person:hover {
     background-color: #c86a40;
     color: #fff;
+    
+    border: 2px solid #c86a40;
+}
+
+#services{
+    background-color: #17c2a4;
 }
