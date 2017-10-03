@@ -1,22 +1,39 @@
-body{
+html,
+body {
     font-family: 'Titillium Web', sans-serif;
+    height: 100%;
 }
 
 header {
     background-color: #87509c;
 }
 
+
+/*div*/
+
+.navbar-brand .img-logo>a
+/*.img-logo*/
+
+{
+    margin: auto;
+    /*width: 117px
+    height: 37px;*/
+    display: inline;
+    border: 1px solid white;
+    background-image: url(img/logo-cuda.png) no-repeat;
+    background-size: contain;
+    color: transparent;
+    vertical-align: middle;
+}
+
 .navbar-custom {
     height: 140px;
     margin-bottom: 0;
-}
-
-.navbar-custom ul {
-    padding-top: 40px;
+    padding-top: 30px;
     margin: auto;
 }
 
-.navbar-custom li a {
+.navbar-custom .navbar-nav>li>a {
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
@@ -25,42 +42,68 @@ header {
     font-weight: 100;
 }
 
-.navbar-custom a:hover, a:active, a:visited {
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-nav>li>a:active,
+.navbar-nav>li>a:visited {
     font-size: 18px;
-    background-color: #643a79 !important;
+    background-color: #643a79;
     border-radius: 4px;
 }
 
-.navbar-custom a:active {
-    background-color: #643a79 !important;
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    /*padding: 120px 0 50px 0;*/
 }
 
-.navbar-custom a:active {
-    background-color: #643a79 !important;
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
 }
 
-
-.logo {
-    background-color: rgb( 255, 255, 255);
-    position: absolute;
-    left: 211px;
-    top: 57px;
-    width: 118px;
-    height: 37px;
-    z-index: 311;
+h3{
+    font-size: 18px;
+    color: white
 }
 
-#first-call {
+p {
+    color: white;
+    font-size: 16px;
+}
+
+.alignment {
+    text-align: center;
+}
+
+.alignment div.container {
+    display: table;
+    height: 100%;
+}
+
+.alignment div.container>div {
+    display: table-cell;
+    vertical-align: middle;
+    /*border: 1px solid white;*/
+    /*position: relative;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+#welcome {
     background-color: #87509c;
-    height: 500px;
-    padding-top: 0;
-    margin-top: 0;
+    height: 400px;
 }
 
-#first-call h1{
+#welcome div.container>div>h1 {
     color: #fff;
     font-weight: bolder;
-
+    font-size: 42.16px;
+    text-transform: initial;
+    padding: 0;
 }
 
 .btn-person {
@@ -69,24 +112,50 @@ header {
     height: 70px;
     border-radius: 8px;
     color: #fff;
-    border-bottom: 4px solid #c86a40;
+   /* border-bottom: 4px solid ;*/
+    box-shadow:0 4px 0 #c86a40;
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     font-weight: bold;
     display: block;
     margin: auto;
-    transition-duration: 0.4s;
-    margin-top:60px;
+    /*transition-duration: 0.1s;*/
+    margin-top: 60px;
 }
 
 .btn-person:hover {
-    background-color: #c86a40;
+    background-color: #ff6e2d;
     color: #fff;
-    
-    border: 2px solid #c86a40;
+    /*border-bottom: 4px solid ;*/
+    box-shadow:0 4px 0 #ee4f08;
 }
 
-#services{
+.btn-person:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+    color: white;
+}
+
+#services {
     background-color: #17c2a4;
+    height: auto;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#services img {
+    /* border: 2px solid white; */
+    text-align: center;
+    /* display: block; */
+    /* padding-left: 0px; */
+    margin: auto;
+    /* width: 60%;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+}
+
+.red{
+    background-color: red;
 }
