@@ -16,14 +16,15 @@ header {
 
 {
     margin: auto;
-    /*width: 117px
-    height: 37px;*/
-    display: inline;
+    width: 117px;
+    height: 37px;
+    display: block;/*inline;*/
     border: 1px solid white;
     background-image: url(img/logo-cuda.png) no-repeat;
     background-size: contain;
     color: transparent;
-    vertical-align: middle;
+    margin-top: 0;
+    /*vertical-align: middle;*/
 }
 
 .navbar-custom {
@@ -158,4 +159,15 @@ p {
 
 .red{
     background-color: red;
+}
+
+
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761 !important;
+}
+
+#team h1{
+    
+    color: #3c4761 !important;
 }
