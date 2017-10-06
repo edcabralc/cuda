@@ -9,22 +9,19 @@ header {
 }
 
 
-/*div*/
 
-.navbar-brand .img-logo>a
-/*.img-logo*/
+.navbar-brand{
+    padding-top:6px;
+}
 
-{
-    margin: auto;
-    width: 117px;
-    height: 37px;
-    display: block;/*inline;*/
-    border: 1px solid white;
-    background-image: url(img/logo-cuda.png) no-repeat;
+.navbar-brand .img-logo>a{
+    background: url('../img/logo-cuda.png') no-repeat;
+    width: 118px;
+    height: 44px;
+    display: block;
     background-size: contain;
     color: transparent;
     margin-top: 0;
-    /*vertical-align: middle;*/
 }
 
 .navbar-custom {
@@ -56,7 +53,7 @@ h1 {
     text-transform: uppercase;
     font-size: 40px;
     color: white;
-    /*padding: 120px 0 50px 0;*/
+    padding-top: 120px;
 }
 
 h2 {
@@ -88,10 +85,22 @@ p {
 .alignment div.container>div {
     display: table-cell;
     vertical-align: middle;
-    /*border: 1px solid white;*/
-    /*position: relative;*/
     margin: 0 auto;
     text-align: center;
+}
+
+.row-space{
+    padding-bottom: 120px;
+}
+
+.line-space{
+    border-bottom: 4px solid white;
+    /*border-bottom-width:87px;*/
+    width: 87px;
+    display: block;
+    text-align: center;
+     
+    
 }
 
 #welcome {
@@ -113,7 +122,6 @@ p {
     height: 70px;
     border-radius: 8px;
     color: #fff;
-   /* border-bottom: 4px solid ;*/
     box-shadow:0 4px 0 #c86a40;
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
@@ -121,14 +129,12 @@ p {
     font-weight: bold;
     display: block;
     margin: auto;
-    /*transition-duration: 0.1s;*/
     margin-top: 60px;
 }
 
 .btn-person:hover {
     background-color: #ff6e2d;
     color: #fff;
-    /*border-bottom: 4px solid ;*/
     box-shadow:0 4px 0 #ee4f08;
 }
 
