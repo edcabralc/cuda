@@ -2,21 +2,22 @@ html,
 body {
     font-family: 'Titillium Web', sans-serif;
     height: 100%;
-    
 }
-::selection { background: #1f6a8f; color: #fff; }
+
+::selection {
+    background: #1f6a8f;
+    color: #fff;
+}
 
 header {
     background-color: #87509c;
 }
 
-
-
-.navbar-brand{
-    padding-top:6px;
+.navbar-brand {
+    padding-top: 6px;
 }
 
-.navbar-brand .img-logo>a{
+.navbar-brand .img-logo>a {
     background: url('../img/logo-cuda.png') no-repeat;
     width: 118px;
     height: 44px;
@@ -65,7 +66,7 @@ h2 {
     color: white;
 }
 
-h3{
+h3 {
     font-size: 18px;
     color: white
 }
@@ -91,11 +92,11 @@ p {
     text-align: center;
 }
 
-.row-space{
+.row-space {
     padding-bottom: 120px;
 }
 
-.line-space:after{
+.line-space:after {
     background: white;
     content: '';
     display: inline-block;
@@ -119,7 +120,6 @@ p {
     font-size: 42.16px;
     text-transform: initial;
     padding: 0;
-    
 }
 
 .btn-person {
@@ -128,7 +128,7 @@ p {
     height: 70px;
     border-radius: 8px;
     color: #fff;
-    box-shadow:0 4px 0 #c86a40;
+    box-shadow: 0 4px 0 #c86a40;
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
@@ -141,13 +141,13 @@ p {
 .btn-person:hover {
     background-color: #ff6e2d;
     color: #fff;
-    box-shadow:0 4px 0 #ee4f08;
+    box-shadow: 0 4px 0 #ee4f08;
 }
 
-.btn-person:active{
-    position:relative;
-    top:5px;
-    box-shadow:none;
+.btn-person:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
     color: white;
 }
 
@@ -169,49 +169,60 @@ p {
     padding: 10px;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
+#skills div.row>h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #3c4761 !important;
+}
 
-#team{
+#team {
     background-color: #e7f1f8;
     color: #3c4761 !important;
 }
 
-#team h1, h3, p{
-    
+#team h1,
+h3,
+p {
     color: #3c4761 !important;
 }
 
-#team h3{
-
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 24px; 
-
+.img-size {
+    width: 200px;
+    height: 200px;
 }
 
-#team h4{
+.blue {
+    border: 1px solid blue;
+}
+
+#team div.row>div>div>h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#team h4 {
     color: #30bae7
 }
 
- #testmonials{
+#portfolio{
 
+    background-color: #ffdd99;
+
+}
+
+#testmonials {
     background-color: #d74680;
-
-
 }
 
-
-#contato{
+#contato {
     background-color: #3c5499;
-
 }
 
-#footer{
+#footer {
     background-color: #344b8e;
-
 }
-
-
