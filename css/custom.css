@@ -179,13 +179,24 @@ p {
     color: #3c4761 !important;
 }
 
-#team h1{
+#team h1, h3, p{
     
     color: #3c4761 !important;
 }
 
+#team h3{
 
-#testmonials{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 24px; 
+
+}
+
+#team h4{
+    color: #30bae7
+}
+
+ #testmonials{
 
     background-color: #d74680;
 
