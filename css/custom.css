@@ -2,7 +2,9 @@ html,
 body {
     font-family: 'Titillium Web', sans-serif;
     height: 100%;
+    
 }
+::selection { background: #1f6a8f; color: #fff; }
 
 header {
     background-color: #87509c;
@@ -93,14 +95,17 @@ p {
     padding-bottom: 120px;
 }
 
-.line-space{
-    border-bottom: 4px solid white;
-    /*border-bottom-width:87px;*/
+.line-space:after{
+    background: white;
+    content: '';
+    display: inline-block;
+    height: 0.2em;
+    max-width: 20em;
     width: 87px;
-    display: block;
+    height: 4px;
     text-align: center;
-     
-    
+    opacity: 0.3;
+    filter: alpha(opacity=60);
 }
 
 #welcome {
@@ -114,6 +119,7 @@ p {
     font-size: 42.16px;
     text-transform: initial;
     padding: 0;
+    
 }
 
 .btn-person {
