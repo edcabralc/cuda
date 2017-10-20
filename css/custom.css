@@ -107,8 +107,6 @@ p {
     text-align: center;
     opacity: 0.3;
     filter: alpha(opacity=60);
-
-    
 }
 
 #welcome {
@@ -166,6 +164,15 @@ p {
     padding: 10px;
 }
 
+#services>button.btn-person{
+background-color: #17c2a4 !important;
+}
+
+#services h3 {
+    font-size: 18px;
+    color: white !important;
+}
+
 .red {
     background-color: red;
 }
@@ -206,15 +213,12 @@ p {
     color: #30bae7
 }
 
-#portfolio{
-
+#portfolio {
     background-color: #ffdd99;
-
 }
 
 #testmonials {
     background-color: #d74680;
-    
 }
 
 #contato {
